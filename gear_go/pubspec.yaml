@@ -1,0 +1,86 @@
+name: gear_go
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Location related dependencies
+  flutter_map:
+  latlong2:
+  geolocator:
+  geocoding:
+
+  # Linting and Firebase
+  flutter_lints:
+  firebase_core:
+  firebase_auth:
+
+  # Animation and UI
+  fade_in_animation:
+  google_fonts:
+  flutter_popup_card:
+  smooth_page_indicator:
+  fluttertoast:
+  lottie:
+  loading_animation_widget:
+  animate_do:
+  card_loading:
+
+  # Cloud and Data
+  cloud_firestore:
+  shared_preferences:
+  appwrite:
+
+  # Image related
+  image_picker:
+  image_cropper:
+  photo_view:
+  cached_network_image:
+
+  # Permissions and Maps
+  permission_handler:
+  flutter_osm_plugin:
+
+  # Audio and Payments
+  audioplayers:
+  razorpay_flutter:
+
+  # Utility
+  mediaquery_sizer:
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/music/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
